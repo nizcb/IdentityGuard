@@ -1,0 +1,59 @@
+.dashboardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  align-items: start;
+}
+
+.dashboardCard {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.dashboardImage {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.dashboardButtons {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns for buttons */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.reasonField {
+  width: 100%;
+  padding: 0 10px; /* Add padding to match the buttons above */
+  display: none; /* Initially don't display this field */
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboardBtn {
+  padding: 10px 20px;
+  width: auto; /* Allow buttons to size according to content */
+  margin-bottom: 10px; /* Add space below buttons */
+}
+
+.reasonInput {
+  width: 100%; /* Match width of buttons */
+  margin-bottom: 10px; /* Space after the input field */
+}
+
+.show {
+  display: flex; /* This class will be toggled to show/hide the reason field */
+}

@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+
+    "@truffle/contract": "^4.3.19",
+    "axios": "^1.6.7",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "framer-motion": "^8.4.2",
+    "react-simple-typewriter": "^5.0.1",
+    "react-icons": "^4.7.1",
+    "react-slick": "^0.29.0",
+    "react-scroll": "^1.8.9",
+    "jsqr": "^1.4.0",
+    "qrious": "^4.0.2",
+
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.22.1",
+
+    "socket.io-client": "^4.7.5",
+    "web3": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.0",
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,19 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore logs
+*.log
+
+# Ignore the npm debug log
+npm-debug.log
+
+# Ignore .git directory
+.git
+
+# Ignore other non-essential files
+.DS_Store
+README.md
+LICENSE
+.vscode
+
+package-lock.json

@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-group button {
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .identifier-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Ajout d'une fine bordure */
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  
+  .send-button {
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .error-message {
+    color: red; 
+  }
+  
+  .camera-container {
+    margin-bottom: 20px; 
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  

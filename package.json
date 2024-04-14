@@ -1,0 +1,22 @@
+{
+  "name": "identityguard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker:build": "docker-compose down && docker-compose up --build -d",
+    "docker:start": "docker-compose up -d",
+    "docker:stop": "docker-compose down",
+    "client:start": "cd client && npm start",
+    "server:start": "cd server && npm start",
+    "ganache:start": "docker-compose up -d ganache",
+    "ganache:stop": "docker-compose stop ganache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsqr": "^1.4.0",
+    "socket.io": "^4.7.5"
+  }
+}
